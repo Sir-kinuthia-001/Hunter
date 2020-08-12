@@ -1,0 +1,183 @@
+@media (min-width: 1200px) {
+}
+@media (min-width: 1000px) {
+}
+@media (min-width: 900px) {
+}
+@media (min-width: 600px) {
+}
+@media (min-width: 599px) {
+}
+body, html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+span{
+  font-weight:lighter;
+  font-size: 30px;
+}
+
+.image{
+  position: absolute;
+  left: 50%;
+  height: 70px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #FBCEB5;
+}
+.image-text{
+  position: absolute;
+  top: 1%;
+  left:7%;
+}
+.img-resize{
+  height: 400px;
+  width: 300px;
+  background-color: #E5F0FF;
+  position: absolute;
+  left: 40%;
+}
+.online-Groceries{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+}
+.shopping-app{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+.nav-bar{
+  position: relative;
+
+  left: 2.5%;
+  background-color: #fff;
+  height: 70px;
+  width: 95%;
+  border-radius: 10px;
+  /*border: 1px solid #000;*/
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.nav-button{
+  float: right;
+  position: relative;
+  top: 5%;
+  margin: 10px;
+  height: 30px;
+  color: #000;
+  background-color: #FFF;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.nav-button:hover{
+  transition: .3s ease-in;
+  background-color: #FBCEB5;
+  color: #000;
+}
+.hambarger-menu{
+  position: absolute;
+  left: 3%;
+}
+.nav-right-bar{
+  position: relative;
+  top: 5%;
+}
+.card-face{
+  margin: 5%;
+  width: 90%;
+  height: 400px;
+  background-color: #E5F0FF;
+  border-radius: 20px;
+}
+.card-face-right{
+  position: relative;
+  float: right;
+  margin: 20px;
+  height: 350px;
+  width: 20%;
+  background-color: #fff;
+  border-radius: 100px;
+}
+.card-face-mid{
+
+}
+.card-face-left{
+  position: relative;
+  float: left;
+  top: 20%;
+  margin: 30px;
+  width: 20%;
+  height: 200px;
+  background-color: #E5F0FF;
+  border-radius: 10px;
+}
+.Search-bar{
+  position: relative;
+  top: 90%;
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px;
+  background-color: #FBCEB5;
+}
+.foximg{
+  position: relative;
+  left: 20%;
+}
+.mid-bar{
+  position: relative;
+  left: 5%;
+  height: 500px;
+  width: 100%;
+}
+.scroll-wrapper{
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 350px;
+}
+.scroll-wrapper::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.mid-bar-category{
+  right:  0;
+  flex: 0 0 auto;
+  margin: 25px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  height: 250px;
+  width: 170px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.mid-bar-category-end{
+  right:  0;
+  flex: 0 0 auto;
+  margin: 25px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  height: 200px;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.mid-bar-category:hover{
+  transition: .3s ease-in;
+  background-color: #FBCEB5;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.11) #FBCEB5;
+  top: -5px;
+  /*height: 260px;
+  weight: 180px;*/
+}
